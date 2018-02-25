@@ -72,12 +72,10 @@
     font-size: 0.825em;
     margin-bottom: 20px;
   }
-  
-  header {
-    border-bottom: 5px solid #0F61B3;
-    margin-bottom: 60px;
-  }
 
+  body{
+    margin-top: 100px;
+  }
   
 }
 
