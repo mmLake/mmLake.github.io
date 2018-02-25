@@ -1,0 +1,234 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: Lucida Sans Unicode;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 20px 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family:Lucida Console;;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+/**********************************
+SECTION: ABOUT
+***********************************/
+
+#about img{
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  float: left;
+  border-radius: 100%;
+}
+
+/**********************************
+SECTION: SKILLS
+***********************************/
+
+.container{
+  max-width: 100%;
+  background-color: #ddd;
+}
+
+#skills p{
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  background-color: #a3a3c2;
+}
+
+.java {width: 80%;}
+.python {width: 70%;}
+.webdev {width: 60%;}
+.cpp {width: 50%;}
+
+/**********************************
+SECTION: RESUME
+***********************************/
+#resume img{
+  max-width: 200px;
+  
+}
+
+/**********************************
+SECTION: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.github a {
+  background-image: url('../img/github.jpg');
+}
+
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin.png');
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* header */
+header {
+  background-color: #3d3d5c;
+  background: #a3a3c2;
+  border-color: #b3b3cc;
+}
+
+/* nav background on mobile */
+nav {
+  background: #a3a3c2;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #0F77BD;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #3d3d5c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
