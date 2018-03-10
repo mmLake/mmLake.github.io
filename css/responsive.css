@@ -32,12 +32,24 @@
   SECTION: ABOUT
   ***********************************/
   #about{
-    display: table;
+    /* display: table; */
   }
   
   #about img{
     float: left;
     margin: 0 5% 80px 0;
+  }
+
+  /**********************************
+  GENERAL
+  ***********************************/
+
+  body{
+    margin-top: 120px;
+  }
+
+  h3 a{
+    top: -140px;
   }
   
 }
@@ -73,10 +85,17 @@
     margin-bottom: 20px;
   }
 
+  /**********************************
+  GENERAL
+  ***********************************/
+
   body{
     margin-top: 100px;
   }
-  
+
+  h3 a{
+    top:-120px;
+  }
 }
 
 
